@@ -1,0 +1,83 @@
+.pdp-container {
+    padding-top: 20px;
+  }
+  
+  .pdp-column-thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .pdp-thumbnail-image {
+    border: 1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .pdp-thumbnail-image:hover {
+    border-color: #007bff;
+  }
+  
+  .pdp-main-image {
+    display: block;
+    margin: auto;
+  }
+  
+  .pdp-column-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .pdp-info {
+    margin: 0 0.1px 8px 0.1px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    color: #1D1F22;
+  }
+  
+
+  .pdp-title{
+  margin-bottom: 32px;
+  text-align: left;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 0.9;
+  color: #1D1F22;
+  }
+  
+  .pdp-attribute-group {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .pdp-attribute-values {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  
+  .pdp-attribute-value-box {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size:medium;
+  }
+
+  .btn-green {
+    background-color: green;
+    border-color: green;
+    color: white; /*  Text contrast */
+  }

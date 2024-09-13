@@ -1,0 +1,98 @@
+
+.mycart{
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  color: black;
+}
+.cart-number {
+  position: absolute;
+  top: -10px; /* position the number above the icon */
+  right: -10px; /* the right of the icon */
+  color:black;
+  border-radius: 10%;
+  padding: 6px 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.cats{
+  width: 100px;
+  
+}
+
+.title-4 {
+  /* margin: 0 101px 103.5px 101px; */
+  margin: 0 101px 103.5px 101px;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--heading-desktop-h-2-font-family, 'Raleway');
+  font-weight: var(--heading-desktop-h-2-font-weight, 400);
+  font-size: var(--heading-desktop-h-2-font-size, 42px);
+  line-height: var(--heading-desktop-h-2-line-height, 1.6);
+  color: var(--ctext, #1D1F22);
+}
+
+.label-7 {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--ctext, #1D1F22);
+} 
+/* Custom CSS to reduce gap between cards */
+.card-custom-gap {
+  margin-bottom: 10px;
+}
+
+.row-custom-gap > .col-md-4 {
+  padding-left: 5px; /* control the horizontal gap */
+  padding-right: 5px; /* control the horizontal gap */
+}
+
+.card-title{
+  text-align: left;
+}
+.card-text{
+  text-align: left;
+}
+
+
+  .btn-green.disabled {
+    background-color: grey;
+    color: white;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
+
+   .full-stack-test-designs {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 124px;
+    line-height: 1.621;
+    color: #FFFFFF;
+  }
+  .project-cover {
+    border-radius: 10px;
+    background: #141414;
+    display: flex;
+    padding: 279px 0;
+    width: 1960px;
+    box-sizing: border-box;
+  }
+
+  .arrow{
+    width: 26px;
+    height: 26px;
+    background-color:chartreuse;
+    color: white;
+    border-color:chartreuse;
+  }
